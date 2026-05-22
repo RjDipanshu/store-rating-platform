@@ -68,24 +68,14 @@ flowchart LR
 
 Below is an ASCII schematic of the **StorePulse Client Dashboard**, showing the sleek glassmorphic navigation header, integrated filter tools, and custom visual cards:
 
-```text
-+-----------------------------------------------------------------------------+
-|  [Star] STOREPULSE               [Lock] Update Password     Sign Out [LogOut] |
-+-----------------------------------------------------------------------------+
-|                                                                             |
-|  REGISTERED STORES                          [ Search brand... ] [ Sort By ] |
-|  Platform Registry Nodes                                                    |
-|                                                                             |
-|  +---------------------------+  +---------------------------+  +----------+ |
-|  | [Store] Starbucks Coffee  |  | [Store] Dominos Pizza     |  | ...      | |
-|  | Saket, Delhi   (Avg: 4.7) |  | Juhu, Mumbai   (Avg: 3.7) |  |          | |
-|  |                           |  |                           |  |          | |
-|  | Your Rating: [Star][Star] |  | Your Rating: [Star]       |  |          | |
-|  | [ Evaluate / Modify ]     |  | [ Evaluate / Modify ]     |  |          | |
-|  +---------------------------+  +---------------------------+  +----------+ |
-|                                                                             |
-+-----------------------------------------------------------------------------+
-```
+<img width="1919" height="875" alt="Screenshot 2026-05-22 122048" src="https://github.com/user-attachments/assets/35079176-1983-40ef-b7c4-8cf3682a1652" />
+
+<img width="1898" height="864" alt="Screenshot 2026-05-22 122352" src="https://github.com/user-attachments/assets/8e3de8a2-4bd4-4f3c-bd95-b49529afb5f3" />
+
+<img width="1919" height="869" alt="Screenshot 2026-05-22 122905" src="https://github.com/user-attachments/assets/405fd04a-b091-4509-a97f-32660d4bc13f" />
+
+
+
 
 ---
 
@@ -190,29 +180,3 @@ git push -u origin main
 ```
 
 ---
-
-## 🌟 Guided Evaluation Walkthrough (How to Grade the Project)
-
-To help your evaluator score the submission **10 out of 10**, suggest that they follow these three simple verification flows:
-
-### Flow 1: System Administrator Portal (`admin@gmail.com`)
-1. Log in as System Admin.
-2. View the **Platform Dashboard** stats (Total Users, Registered Stores, Submitted Ratings).
-3. Navigate to **Provision Store / Users** tab:
-   * Attempt to create a user with a short name (e.g., `< 20 chars`) or a weak password to witness real-time validation warnings.
-   * Provision a brand new **Store Owner** account and a **Store Entity** linked to their User ID.
-4. Verify the **Users Registry** and **Stores Directory** tables:
-   * Try searching and sorting column fields (Name, Email, Rating).
-   * Notice that clicking **View Details** displays full user profile metadata inside a sleek modal sheet.
-
-### Flow 2: Client Rating Submission (`amit.kumar@gmail.com`)
-1. Log in as a Normal User.
-2. Locate the stores listed on the grid. Try searching for stores using the search bar (filtering by brand name or city address).
-3. Select **Evaluate** on any store card. Change the rating using the glowing interactive stars and click **Confirm Rating**.
-4. Spot that your custom evaluation status changes inline instantly to show your submitted stars, and the overall average rating is updated dynamically.
-
-### Flow 3: Partner Performance Inspection (`rajesh.owner@gmail.com`)
-1. Log in as the Store Owner.
-2. Check that the store metrics counters display your store's average rating and total evaluations instantly.
-3. Observe the **Customer Evaluation Logs** table listing the name, email, and rating score of every client who reviewed your store.
-4. Click **Update Password** to test the secure profile password modulation and validation constraints.
